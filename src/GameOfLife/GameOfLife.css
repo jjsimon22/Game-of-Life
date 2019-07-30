@@ -1,0 +1,30 @@
+/*
+ * GameOfLife css File
+*/
+
+.GameOfLife {
+    /* propertys here */
+
+}
+
+.GameOfLife .controls {
+    width: 50%;
+}
+
+.GameOfLife table td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.GameOfLife .alive {
+    background-color: #1fff62;
+}
+
+.GameOfLife .dead {
+    background-color: #ff1f1f;
+}
+
+.GameOfLife td.editMode {
+    cursor: pointer;
+}
