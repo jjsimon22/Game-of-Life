@@ -20,7 +20,7 @@ class GameOfLife extends Component {
                 [false,false,false,false,false,true,false,false,false,false],
                 [false,false,false,false,true,false,false,false,false,false],
                 [false,false,false,false,false,false,false,false,false,false],
-            ];
+            ]; // default size and start
 
         const editingGrid = [];
         for (let i=0; i<defaultRows; i++) {
